@@ -218,3 +218,49 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
+
+
+/* Call to action section */
+
+.callsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    
+}
+
+.callsignup-container {
+    background: #3882F6;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+
+    padding: 30px 40px;
+
+}
+
+.callsignup-text {
+    color: #F9FAF8;
+
+
+}
+
+.callsignup-text h1 {
+
+    font-weight: 800;
+}
+
+.bottom-buttom {
+
+    
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 8px 30px;
+    background:#3882F6;
+    color: #F9FAF8;
+
+}
