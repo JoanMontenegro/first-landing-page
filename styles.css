@@ -7,10 +7,20 @@
 body {
     height: 100%;
     
+    
 }
+
+
 
 header, .main {
     background: #1F2937;
+    padding: 16px 200px;
+    
+}
+
+.logoimg {
+    width: 75px;
+
 }
 
 .navbar-list-container {
@@ -37,12 +47,12 @@ a {
     
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
 
 }
 
-.navbar-container {
-    padding: 16px 100px;
+.joinme {
+    width: 500px;
 }
 
 .joinme h1{
@@ -53,13 +63,53 @@ a {
 .joinme p {
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
-.signup {
-    background:#3882F6;
-    color: #F9FAF8;
-}
+
+
 
 .image-place {
-    background: gray;
+        height: 200px;
+        width: 500px;
+        
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        
+     
+    
+}
+
+
+.image-place-img {
+    max-width: 100%;
+    height: auto;
+   
+
+}
+
+
+/* Styling .main - the sign up and image section*/
+
+.main {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    align-items: flex-start;
+    
+}
+
+
+/* Styling the button */
+
+.signup {
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+    background:#3882F6;
+    color: #F9FAF8;
 }
