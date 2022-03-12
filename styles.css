@@ -113,3 +113,64 @@ a {
     background:#3882F6;
     color: #F9FAF8;
 }
+
+/* 3dr part */
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.selection-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.selection-classes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    
+}
+
+.volcano-img, .huila-img, .sierra-img, .origin-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    overflow: hidden;
+    margin: 0 auto;
+  
+    
+}
+
+.selection-classes img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.selection-classes p{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.volcano, .huila, .sierra, .origin {
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+    }
+
